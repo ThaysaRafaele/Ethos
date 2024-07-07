@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #44979C;
+    background-color: #1e90ff8c;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -37,7 +37,8 @@ section#Home {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 20px;
+    min-height: 100vh;
+    padding: 2%;
     color: #ffffff;
 }
 
@@ -50,8 +51,6 @@ section#Home {
 
 .info{
     width: 30%;
-    text-align: justify;
-    /* margin: 15% 0 0 5%; */
 }
 
 .imagemHome{
@@ -69,4 +68,132 @@ section#Home {
     color: #006400;
     font-size:larger;
     font-weight: 700;
+    cursor: pointer;
+}
+
+.saibaMais:hover{
+    border: 2px solid;
+    background-color:  #1e90ff8c;
+    color: #ffffff;
+}
+
+section#Educacao {
+    background-image: url('./images/Postion Absolute - bg-03.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    min-height: 100vh;
+    padding: 2%;
+    color: #0B1F3B;
+}
+
+.container-educacao {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.info-negocios {
+    width: 35%;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.options {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.options > div {
+    width: 48%;
+}
+
+.footer-educacao {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footer-educacao img {
+    max-width: 40%;
+}
+
+.infoFooter {
+    text-align: left;
+    width: 35%;
+}
+
+hr{
+        height: 0.5rem;
+        width: 5rem;
+        display: inline-flex;
+        border: none;
+}
+
+hr.blue{    
+    background-color: #1e90ff;
+}
+
+hr.green{    
+    background-color: #006400;
+}
+
+section#Consultoria {
+    background-image: url('./images/Postion Absolute - bg-04.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    min-height: 100vh;
+    padding: 2%;
+    color: #0B1F3B;
+}
+
+.consultoria {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-consultoria {
+    width: 35%;
+    text-align: left;
+}
+
+.footer-consultoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    background-image: url('./images/Postion Absolute - bg-footer.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    color: #006400;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    bottom: 0;
+    
+    padding: 2%;
+}
+
+.info-footer{    
+    width: 35%;
+    text-align: left;
+    color: #0b1f3b;
+}
+
+hr.footer{
+    height: 0.1rem;
+    width: 70%;
+    display: inline-flex;
+    background-color: #0b1f3b;
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
